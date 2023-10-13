@@ -1,0 +1,96 @@
+/*Reset the default margin and padding of the HTML*/
+*{
+  margin:0;
+  padding:0;
+  word-wrap: break-word;
+}
+
+/*Give the body a background color*/
+body{
+  background:lightgoldenrodyellow;
+}
+
+/*Give the image height and border radius*/
+img{
+  height:30em;
+  border-radius: .2em;
+}
+
+/*The container for all the sections on the html documents displayed as flex*/
+.containerCase{
+  display:flex;
+  margin:20em 2em 0 2em;
+  font-style: 100%;
+}
+
+/*Give all the section that are child of container section a margin*/
+.containerCase section *{
+  margin-left: 0.5em;
+}
+
+/* Give the Section with the class textInfo background of white*/
+.textInfo{
+  background:white;
+  height:30em;
+  box-sizing: border-box;
+  
+}
+
+/* The span with perfume text content*/
+.perfumeText{
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 1.3em;
+  font-weight:250;
+  margin:3% 0 3% 0;
+  display: block;
+  
+}
+
+/*The heading on the section with a class textInfo*/
+section.textInfo h1{
+  font-size: 1.5em;
+  margin-top: 0.4em;
+}
+
+/*The paragraph in the section given margin,line-height...*/
+section.textInfo p{
+  margin-top: 1em;
+  line-height: 1.2em;
+  margin-bottom: 1.5em;
+  text-transform: capitalize;
+  font-weight: 350;
+  font-size: 110%;
+}
+
+/*The price with a strike through*/
+.deletedPrice{
+  font-size: 110%;
+  margin-left:1em;
+
+}
+
+/*The promo price or current allowed price*/
+.moneySign{
+  color:green;
+  font-weight: bold;
+  font-size: 200%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*The order button*/
+button{
+  background:darkgreen;
+  font-weight: bolder;
+  font-size:120%;
+  color:white;
+  text-transform: capitalize;
+  display:block;
+  margin: 1em 0 0 1em;
+  border:none;
+  padding:10px;
+  width:85%;
+  border-radius: 0.6em;
+  cursor:hand
+}
